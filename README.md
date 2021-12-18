@@ -40,10 +40,10 @@ https://hub.docker.com/r/polarbear08/ethminer
 
 ## 既知の問題
 
-- Dockerfileのビルド 
+- Dockerfileのビルド  
 マシンによっては当リポジトリのDockerfileのビルドに失敗することがあります。  
 修正の予定はありませんのでご了承ください。
-- SIGSEGVによるプロセスの中断
+- SIGSEGVによるプロセスの中断  
 根本原因は不明ですが、SIGSEGVを受け取ってプログラムが終了してしまうことがあります。
 `restart_cron.sh`をcronで定期実行するとダウンタイムの長期化を防げます。
 
